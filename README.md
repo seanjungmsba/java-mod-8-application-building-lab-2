@@ -7,7 +7,7 @@ Bootstrap styles and put them in the right layout, let's go over each one of the
 elements you will need and have you build up the application so that it looks
 like the wireframe shared previously.
 
-### Dropddown menu
+### Dropdown menu
 
 ```html
 <div class="dropdown">
