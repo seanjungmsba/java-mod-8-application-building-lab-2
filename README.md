@@ -7,7 +7,7 @@ Bootstrap styles and put them in the right layout, let's go over each one of the
 elements you will need and have you build up the application so that it looks
 like the wireframe shared previously.
 
-1. Dropdown menu
+### Dropdown menu
 
 ```html
 <div class="dropdown">
@@ -27,7 +27,7 @@ like the wireframe shared previously.
 </div>
 ```
 
-2. Badge (to represent the user's avatar)
+### Badge (to represent the user's avatar)
 
 ```html
 <span class="badge bg-secondary">L</span>
@@ -40,7 +40,7 @@ like the wireframe shared previously.
 <input class="form-check-input" type="checkbox" value="" checked />
 ```
 
-4. Label (to represent a person's message)
+### Label (to represent a person's message)
 
 ```html
 <div class="col-8 p-3 border rounded-5">
