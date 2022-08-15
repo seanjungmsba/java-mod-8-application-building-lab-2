@@ -7,7 +7,7 @@ Bootstrap styles and put them in the right layout, let's go over each one of the
 elements you will need and have you build up the application so that it looks
 like the wireframe shared previously.
 
-### Dropdown menu
+### Dropddown menu
 
 ```html
 <div class="dropdown">
@@ -34,7 +34,9 @@ like the wireframe shared previously.
 ```
 
 > There is no "badge" or "avatar" for the current user, as the person viewing
-> their messages knows who they are 3. Checkbox
+> their messages knows who they are
+
+### Checkbox
 
 ```html
 <input class="form-check-input" type="checkbox" value="" checked />
@@ -50,7 +52,9 @@ like the wireframe shared previously.
 
 > You will adjust the `col-8` class based on. Also, we do want to keep the
 > border on for this element, as it will help visually separate one message from
-> the next 5. Input box
+> the next
+
+### Input box
 
 ```html
 <input type="input" class="form-control" placeholder="Type a message" />
@@ -73,7 +77,7 @@ but most borders are gone.
 Here are the latest versions of our components' views that correspond to the UI
 above:
 
-- Conversation control:
+### Conversation control
 
 ```html
 <div class="container">
@@ -104,7 +108,7 @@ above:
 </div>
 ```
 
-- Conversation history:
+### Conversation history
 
 ```html
 <div class="container">
@@ -127,7 +131,7 @@ above:
 </div>
 ```
 
-- Conversation thread:
+### Conversation thread
 
 ```html
 <div class="container">
@@ -153,7 +157,7 @@ above:
 </div>
 ```
 
-- Sender messages:
+### Sender messages
 
 ```html
 <div class="container">
@@ -168,7 +172,7 @@ above:
 </div>
 ```
 
-- User messages:
+### User messages
 
 ```html
 <div class="container">
@@ -181,7 +185,7 @@ above:
 </div>
 ```
 
-- Send message:
+### Send message
 
 ```html
 <div class="container">
@@ -198,7 +202,7 @@ above:
 </div>
 ```
 
-- Contact list:
+### Contact list
 
 ```html
 <div class="container">
@@ -229,7 +233,7 @@ above:
 </div>
 ```
 
-- Contact:
+### Contact
 
 ```html
 <div class="container">
